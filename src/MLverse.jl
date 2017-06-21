@@ -5,5 +5,6 @@ using Reexport
 @reexport using LossFunctions
 @reexport using PenaltyFunctions
 @reexport using LearningStrategies
+@reexport using DataGenerator
 
 end
