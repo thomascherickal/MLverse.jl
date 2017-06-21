@@ -1,5 +1,9 @@
 module MLverse
 
-# package code goes here
+using Reexport
+@reexport using LearnBase
+@reexport using LossFunctions
+@reexport using PenaltyFunctions
+@reexport using LearningStrategies
 
-end # module
+end
